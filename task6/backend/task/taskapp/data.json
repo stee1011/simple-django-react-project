@@ -1,0 +1,276 @@
+[
+    {
+        "model":"taskapp.Students",
+        "pk":2,
+        "fields":{
+            "name":"james",
+            "email":"james@101.co",
+            "marks":97,
+            "date":"2024-09-19"
+            
+        }
+    },
+    
+    {
+            "model": "taskapp.Students",
+            "pk": 3,
+            "fields": {
+                "name": "Alice Johnson",
+                "email": "alice.johnson@example.com",
+                "marks": 88,
+                "date": "2024-09-20"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 4,
+            "fields": {
+                "name": "Robert Brown",
+                "email": "robert.brown@example.com",
+                "marks": 75,
+                "date": "2024-09-21"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 5,
+            "fields": {
+                "name": "Emma Davis",
+                "email": "emma.davis@example.com",
+                "marks": 95,
+                "date": "2024-09-22"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 6,
+            "fields": {
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "marks": 82,
+                "date": "2024-09-23"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 7,
+            "fields": {
+                "name": "Sophia Miller",
+                "email": "sophia.miller@example.com",
+                "marks": 90,
+                "date": "2024-09-24"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 8,
+            "fields": {
+                "name": "Jackson Taylor",
+                "email": "jackson.taylor@example.com",
+                "marks": 68,
+                "date": "2024-09-25"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 9,
+            "fields": {
+                "name": "Olivia Martinez",
+                "email": "olivia.martinez@example.com",
+                "marks": 92,
+                "date": "2024-09-26"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 10,
+            "fields": {
+                "name": "William Hernandez",
+                "email": "william.hernandez@example.com",
+                "marks": 85,
+                "date": "2024-09-27"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 11,
+            "fields": {
+                "name": "Ava Clark",
+                "email": "ava.clark@example.com",
+                "marks": 78,
+                "date": "2024-09-28"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 12,
+            "fields": {
+                "name": "James Rodriguez",
+                "email": "james.rodriguez@example.com",
+                "marks": 88,
+                "date": "2024-09-29"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 13,
+            "fields": {
+                "name": "Mia Lewis",
+                "email": "mia.lewis@example.com",
+                "marks": 90,
+                "date": "2024-09-30"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 14,
+            "fields": {
+                "name": "Elijah Walker",
+                "email": "elijah.walker@example.com",
+                "marks": 95,
+                "date": "2024-10-01"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 15,
+            "fields": {
+                "name": "Isabella Hall",
+                "email": "isabella.hall@example.com",
+                "marks": 84,
+                "date": "2024-10-02"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 16,
+            "fields": {
+                "name": "Lucas Allen",
+                "email": "lucas.allen@example.com",
+                "marks": 77,
+                "date": "2024-10-03"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 17,
+            "fields": {
+                "name": "Charlotte Young",
+                "email": "charlotte.young@example.com",
+                "marks": 91,
+                "date": "2024-10-04"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 18,
+            "fields": {
+                "name": "Henry King",
+                "email": "henry.king@example.com",
+                "marks": 69,
+                "date": "2024-10-05"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 19,
+            "fields": {
+                "name": "Amelia Wright",
+                "email": "amelia.wright@example.com",
+                "marks": 96,
+                "date": "2024-10-06"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 20,
+            "fields": {
+                "name": "Oliver Scott",
+                "email": "oliver.scott@example.com",
+                "marks": 82,
+                "date": "2024-10-07"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 21,
+            "fields": {
+                "name": "Ella Torres",
+                "email": "ella.torres@example.com",
+                "marks": 79,
+                "date": "2024-10-08"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 22,
+            "fields": {
+                "name": "Gabriel Nguyen",
+                "email": "gabriel.nguyen@example.com",
+                "marks": 87,
+                "date": "2024-10-09"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 23,
+            "fields": {
+                "name": "Chloe Ramirez",
+                "email": "chloe.ramirez@example.com",
+                "marks": 93,
+                "date": "2024-10-10"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 24,
+            "fields": {
+                "name": "Daniel Perez",
+                "email": "daniel.perez@example.com",
+                "marks": 76,
+                "date": "2024-10-11"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 25,
+            "fields": {
+                "name": "Zoe Cooper",
+                "email": "zoe.cooper@example.com",
+                "marks": 94,
+                "date": "2024-10-12"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 26,
+            "fields": {
+                "name": "Aiden Reed",
+                "email": "aiden.reed@example.com",
+                "marks": 81,
+                "date": "2024-10-13"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 27,
+            "fields": {
+                "name": "Lily Sanders",
+                "email": "lily.sanders@example.com",
+                "marks": 89,
+                "date": "2024-10-14"
+            }
+        },
+        {
+            "model": "taskapp.Students",
+            "pk": 28,
+            "fields": {
+                "name": "Mason Price",
+                "email": "mason.price@example.com",
+                "marks": 74,
+                "date": "2024-10-15"
+            }
+        }
+    
+    
+]

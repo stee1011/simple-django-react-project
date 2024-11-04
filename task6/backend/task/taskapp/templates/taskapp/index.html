@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr><th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Marks</th>
+                <th>Date</th>
+                <th>Edit</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for items in students %}
+            <tr>
+                <td>{{items.id}}</td>
+                <td>{{items.name}}<td>
+                    <td>{{items.email}}<td>
+
+                        <td>{{items.marks}}<td>
+
+                            <td>{{items.date}}<td>
+                                <td><a href="{% url 'edit' items.id %}">Edit</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
